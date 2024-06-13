@@ -1,34 +1,16 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\Katarzyn\Desktop\Informatyka\Rok 1\AZI 2\Języki programowania\Zadanie 3\Project 1" -B "C:\Users\Katarzyn\Desktop\Informatyka\Rok 1\AZI 2\Języki programowania\Zadanie 3\Project 1\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\GitHub\School-Projects\Project 1" -B "D:\GitHub\School-Projects\Project 1\cmake-build-debug"
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
-CMake Error:
-  Running
-
-   'C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe' '-C' 'C:/Users/Katarzyn/Desktop/Informatyka/Rok 1/AZI 2/Języki programowania/Zadanie 3/Project 1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-65hp8l' '-t' 'recompact'
-
-  failed with:
-
-   ninja: fatal: chdir to 'C:/Users/Katarzyn/Desktop/Informatyka/Rok 1/AZI 2/Jezyki programowania/Zadanie 3/Project 1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-65hp8l' - No such file or directory
-
-
-
-CMake Error:
-  Running
-
-   'C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe' '-C' 'C:/Users/Katarzyn/Desktop/Informatyka/Rok 1/AZI 2/Języki programowania/Zadanie 3/Project 1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-65hp8l' '-t' 'restat' 'build.ninja'
-
-  failed with:
-
-   ninja: fatal: chdir to 'C:/Users/Katarzyn/Desktop/Informatyka/Rok 1/AZI 2/Jezyki programowania/Zadanie 3/Project 1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-65hp8l' - No such file or directory
-
-
-
-CMake Error at C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile):
-  Failed to generate test project build system.
-Call Stack (most recent call first):
-  C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
-  CMakeLists.txt:2 (project)
-
-
--- Configuring incomplete, errors occurred!
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (6.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/GitHub/School-Projects/Project 1/cmake-build-debug
